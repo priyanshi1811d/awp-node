@@ -1,3 +1,4 @@
+//factorial of negative number
 var fact = function(x,next) {
     if(x<0) {
         next(new Error ("Cannot find factorial"));
